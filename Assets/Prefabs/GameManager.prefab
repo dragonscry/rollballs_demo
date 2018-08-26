@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1491131721065996}
+  m_IsPrefabAsset: 1
+--- !u!1 &1491131721065996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4849952052317252}
+  - component: {fileID: 114026511057760392}
+  - component: {fileID: 114898874228191776}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4849952052317252
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1491131721065996}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.682902, y: 0.3030337, z: -4.937709}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114026511057760392
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1491131721065996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fbbbe1ee20b146259ee1e3077c40111, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boardScript: {fileID: 0}
+--- !u!114 &114898874228191776
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1491131721065996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff857aa7abf8b45cbb9a3764404d2118, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  columns: 9
+  rows: 9
+  obstacleCount:
+    minimum: 50
+    maximum: 57
+  pickCount:
+    minimum: 20
+    maximum: 28
+  killCount:
+    minimum: 20
+    maximum: 28
+  player: {fileID: 1962117425696260, guid: b52fe863d35a74dac84d2c5ce8dacbaa, type: 2}
+  exit: {fileID: 1239607680785784, guid: 4b89754f6e90142caa1fd6d07edf605d, type: 2}
+  obstacle: {fileID: 1483598132542536, guid: 282c328bcd12346fdb76b07483241d58, type: 2}
+  pickup: {fileID: 1165355768383538, guid: 646bf112b1cc645d29ca7938ade3016f, type: 2}
+  killbox: {fileID: 1121650393079324, guid: a3ee31195d01d4572be8b3a6f3fb8c66, type: 2}
